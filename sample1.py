@@ -1,8 +1,10 @@
-a="one.txt"
+""" a="one.txt"
 print(a)
 f1=open(a,"r")
 print(f1)
 print(f1.readline())
 print(f1.readline())
 print(f1.readline())
-f1.close() 
+f1.close() """
+print("I opened the file")
+print("I  closed the file")
